@@ -11,7 +11,7 @@ pipeline {
 
         stage('Compile') {
             steps {
-                sh 'javac -d bin src/*.java'
+                sh 'javac -d bin src/App.java'
             }
         }
 
